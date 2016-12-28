@@ -1,0 +1,93 @@
+body {
+background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/Los-Angeles-Wallpaper-3.jpg");
+
+}
+main {
+   width: 65%;
+   margin: 0 auto;
+}
+#nav_bar {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: #2F4F4F;
+}
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+nav ul li {
+  float:right;
+}
+nav ul li a{
+  height: 40px;
+  width: 150px;
+  color: white;
+  line-height: 40px;
+  margin: 10px;
+  margin-top: 3px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px black;
+  background-color:#121F1F;
+  display: block;
+}
+
+h2 {
+  color: black;
+  margin-top: 40px;
+  text-align: center;
+}
+hr {       
+border:solid 1px black;
+width: 96%;
+color: #FFFF00;
+background-color: black;
+height: 1px;
+  }
+#about {
+  margin-top: 43px;
+  }
+#about img {
+  width: 400px;
+  margin-left: 20px;
+  padding-right: 200px;
+  display: inline;
+}
+
+#about button {
+  margin: 10px;
+  font-size: 25px;
+  box-shadow: 2px 2px 1px black;
+  background-color:#121F1F;
+}
+
+#about, #portfolio, #contact {
+  opacity: .95;
+  background-color:  #507d2a;
+  margin-top:20px;
+  padding-top:5px;
+  padding-bottom:20px;
+}
+#contact{
+  margin-top: 20px;
+}
+#portfolio img {
+  height:auto;
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+#left-well{
+  margin-left: 20px;
+}
+
+#right-well{
+  margin-right: 20px;
+}
+footer {
+  margin: 20px 0 0 0;
+  padding-bottom: 5px;
+  background-color: #2F4F4F;
+  color: black;
+ }
