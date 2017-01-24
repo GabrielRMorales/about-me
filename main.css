@@ -65,6 +65,7 @@ height: 1px;
 #about, #portfolio, #contact {
   opacity: .95;
   background-color:  #507d2a;
+  border-radius: 5px;
   margin-top:20px;
   padding-top:5px;
   padding-bottom:20px;
